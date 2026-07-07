@@ -1,8 +1,8 @@
 {
-  "version": "0.0.0",
+  "version": "0.9.1",
   "url": "https://ii-agent-updates.muhinv451.workers.dev/releases/",
-  "changelog": "Каркас репозитория обновлений. Первый реальный релиз появится здесь.",
-  "released": "2026-07-08",
+  "changelog": "Базовая версия. Реальные релизы появятся здесь.",
+  "released": "2026-07-07",
   "min_platform": "8.3.24",
   "mandatory": false
 }
