@@ -2,7 +2,9 @@
 
 Хостинг обновлений расширения **ИИ-Агент для 1С:УТ**.
 
-Раздаётся через **Cloudflare Pages** (output directory = `public`).
+Раздаётся через **Cloudflare (Worker со статикой)**, папка `./public` (см. `wrangler.jsonc`).
+
+Публичный адрес: **https://ii-agent-updates.muhinv451.workers.dev**
 
 ## Структура
 
@@ -15,8 +17,8 @@ public/
 
 ## Публичные адреса (после подключения Cloudflare Pages)
 
-- Манифест: `https://ii-agent-updates.pages.dev/latest.json`
-- Файл релиза: `https://ii-agent-updates.pages.dev/releases/ИИ_Агент_X.Y.Z.cfe`
+- Манифест: `https://ii-agent-updates.muhinv451.workers.dev/latest.json`
+- Файл релиза: `https://ii-agent-updates.muhinv451.workers.dev/releases/ИИ_Агент_X.Y.Z.cfe`
 
 ## Формат `latest.json`
 
